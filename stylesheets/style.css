@@ -21,6 +21,7 @@ body {
     text-align: center;
     position: relative;
     padding: 10px 0;
+    height: 32px;
 
 }
 
@@ -65,7 +66,7 @@ ul {
     display: flex;
     position: absolute;
     top: 30%;
-    left: 0%;
+    left: 1%;
 }
 
 .nav-link ul li {
@@ -82,16 +83,24 @@ ul {
     height: 20px;
 }
 
+
+.logo {
+    padding: 30px;
+    border: 1px dotted #000;
+}
+
 .logo p {
     color: #000;
     font-size: 1.9rem;
     display: inline-block;
-    border: 1px dotted #000;
     margin: 0;
-    padding: 15px;
 }
 
 /*********** GALLERY ************/
+.svg-container {
+    margin-left: 11px;
+}
+
 /*********** CARD1 ************/
 
 .container-main {
@@ -120,7 +129,7 @@ ul {
 
 .card__text {
     background-color: #fff;
-    padding: 20px;
+    padding: 25px 20px;
     text-align: center;
 }
 
@@ -163,20 +172,56 @@ ul {
 
 .card-container-2 button {
     background-color: #000;
-    padding: 16px;
+    padding: 16px 35px;
     color: #fff;
 }
 
-.card-container-2 button img {
-    color: #fff;
+
+.card-container-2 svg {
     fill: #fff;
+    height: 18px;
+    width: 18px;
+}
+
+
+
+/*********** CARD3 ************/
+
+.card-container-3 .card__text {
+    text-align: left;
+}
+
+.card-container-3 .card__text p {
+    font-size: 1.6rem;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.card-container-3 button {
+    background-color: #000;
+    padding: 16px 35px;
+    color: #fff;
+}
+
+.card-container-3 svg {
+    fill: #fff;
+    height: 18px;
+    width: 18px;
 }
 
 /********************+******* MEDIA QUERY*******************************/
 
 @media (max-width:1023px) {
+    .logo {
+        padding: 15px;
+    }
+
     .navbar-text {
         display: none;
+    }
+
+    .nav-bar {
+        height: 65px;
     }
 }
 
@@ -204,7 +249,7 @@ ul {
         display: flex;
         position: absolute;
         top: 40%;
-        left: 3%;
+        left: 4%;
     }
 
     .nav-link ul li {
