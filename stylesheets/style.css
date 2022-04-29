@@ -13,6 +13,12 @@ body {
     margin: 0;
 }
 
+ul {
+    display: inline-block;
+    padding-inline-start: 0;
+    margin: 0;
+    list-style-type: none;
+}
 
 /*********** BANNER ************/
 
@@ -40,12 +46,6 @@ body {
     top: 50%;
     right: 4%;
     transform: translate(0, -50%);
-}
-
-ul {
-    display: inline-block;
-    padding-inline-start: 0;
-    margin: 0;
 }
 
 /*********** NAVIGATION BAR ************/
@@ -76,6 +76,7 @@ ul {
 
 .nav-link a {
     text-decoration: none;
+    color: #000;
 }
 
 .nav-link ul img {
@@ -207,6 +208,39 @@ ul {
     fill: #fff;
     height: 18px;
     width: 18px;
+}
+
+/*********** FOOTER ************/
+/*********** BANNER ************/
+
+.marketing-banner {
+    max-height: 160px;
+    background-color: #F5F5F5;
+    overflow-x: auto;
+}
+
+.badges-container {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+
+}
+
+.badges-container li {
+    height: auto;
+    max-height: 148px;
+    width: auto;
+    min-width: 100px;
+    padding: 46px 0;
+}
+
+.badges-container span {
+    display: flex;
+    justify-content: center;
+}
+
+.badges-container p {
+    text-align: center;
 }
 
 /********************+******* MEDIA QUERY*******************************/
