@@ -99,7 +99,7 @@ ul {
 
 /*********** GALLERY ************/
 .svg-container {
-    margin-left: 11px;
+    margin-left: 8px;
 }
 
 /*********** CARD1 ************/
@@ -154,9 +154,6 @@ ul {
     font-weight: bold;
 }
 
-.card__text button img {
-    padding-left: 5px;
-}
 
 
 /*********** CARD 2 ************/
@@ -221,16 +218,17 @@ ul {
 
 .badges-container {
     display: flex;
-    justify-content: center;
-    gap: 60px;
-
+    justify-content: space-between;
+    overflow: visible;
+    gap: 30px;
 }
 
 .badges-container li {
     height: auto;
     max-height: 148px;
     width: auto;
-    min-width: 100px;
+    max-width: min-content;
+    min-width: 140px;
     padding: 46px 0;
 }
 
@@ -241,6 +239,9 @@ ul {
 
 .badges-container p {
     text-align: center;
+    font-size: 1.6rem;
+    font-weight: 700;
+
 }
 
 /********************+******* MEDIA QUERY*******************************/
@@ -257,11 +258,50 @@ ul {
     .nav-bar {
         height: 65px;
     }
+
+    /*********** CARD 1 ************/
+    .add_paragraph {
+        display: none;
+    }
 }
 
 
 
 @media (min-width: 1024px) {
+    /*********** CARD 1 ************/
+
+    .card-container-1 {
+        position: relative;
+    }
+
+    .card-container-1 .card__text {
+        position: absolute;
+        width: 532px;
+        height: 311px;
+        bottom: 0;
+        left: 40px;
+        padding: 40px 54px;
+        text-align: left;
+    }
+
+    .add_paragraph {
+        font-size: 1.6rem;
+        font-weight: 400;
+        line-height: 18.75px;
+        letter-spacing: 1%;
+    }
+
+    .card-container-1 .card__text h2 {
+        margin-bottom: 64px;
+        margin-top: 10px;
+    }
+
+    .card-container-1 .card__text button {
+        padding: 0;
+        margin: 30px 0;
+    }
+
+
 
     /*********** CARD 2 ************/
     .navbar-icon {
@@ -291,3 +331,9 @@ ul {
         font-weight: 700;
     }
 }
+
+/* sistema frecce dentro i button, 
+inizia il responsive delle carte 
+fai footer con form 
+vedi come si fa accoreon su css
+*/
