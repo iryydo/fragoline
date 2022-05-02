@@ -105,6 +105,10 @@ ul {
     margin-left: 8px;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
 /*********** CARD1 ************/
 
 .container-main {
@@ -177,8 +181,8 @@ ul {
     color: #fff;
 }
 
-
 .card-container-2 svg {
+    vertical-align: sub;
     fill: #fff;
     height: 18px;
     width: 18px;
@@ -204,7 +208,9 @@ ul {
     color: #fff;
 }
 
+
 .card-container-3 svg {
+    vertical-align: sub;
     fill: #fff;
     height: 18px;
     width: 18px;
@@ -372,8 +378,36 @@ ul {
     }
 }
 
+/*********** FOOTER ************/
+
+.footer-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.form-container h3 {
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+.form-container input {
+    border: none;
+}
+
+.links-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+
 /* sistema frecce dentro i button, 
 inizia il responsive delle carte 
 fai footer con form 
 vedi come si fa accoreon su css
+chiedi del problema scroll nel footer
 */
+
+/* flex-basis per grid */
+/* per freccia: vertical align su svg; 
+line-height che forse rompe */
