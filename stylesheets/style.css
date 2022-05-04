@@ -379,11 +379,39 @@ a {
     left: -40px;
 }
 
+.help-accord,
+.company-accord {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: #F5F5F5;
+    border: 1px solid #eaeaea;
+    gap: 20px;
+}
+
+.help-accord p,
+.company-accord p {
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.plus {
+    max-height: min-content;
+    position: absolute;
+    top: 16px;
+    right: 14px;
+}
+
 /*********** FOLLOW US ************/
 
 .footer-container-2 {
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: 100px
+        /* temporaneo */
+    ;
     width: 100%;
     gap: 28px;
 }
