@@ -382,9 +382,10 @@ a {
 .help-accord,
 .company-accord {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     position: relative;
+    padding-left: 26px;
     background-color: #F5F5F5;
     border: 1px solid #eaeaea;
     gap: 20px;
@@ -400,7 +401,7 @@ a {
     max-height: min-content;
     position: absolute;
     top: 16px;
-    right: 14px;
+    right: 26px;
 }
 
 /*********** FOLLOW US ************/
@@ -503,7 +504,9 @@ a {
 
     /*********** FOOTER ************/
 
-
+    .links-container {
+        display: none;
+    }
 
 }
 
@@ -620,9 +623,16 @@ a {
 
     }
 
-    /*********** COPYRIGTH ************/
+    /*********** COPYRIGHT ************/
     .footer-banner {
         max-height: 48px;
+    }
+
+
+
+    .help-accord,
+    .company-accord {
+        display: none;
     }
 
 }
