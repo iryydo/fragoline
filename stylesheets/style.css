@@ -449,6 +449,12 @@ a {
 .footer-banner p {
     color: #fff;
     font-weight: 400;
+    margin: 0;
+}
+
+.links {
+    display: flex;
+    gap: 8px;
 }
 
 /********************+******* MEDIA QUERY 1 ****************************/
@@ -504,6 +510,11 @@ a {
         margin-right: 16px;
     }
 
+    .footer-banner {
+        flex-direction: column;
+        height: 110px;
+        gap: 0;
+    }
 }
 
 /********************+******* MEDIA QUERY 2 ****************************/
@@ -619,12 +630,13 @@ a {
 
     }
 
-    /*********** COPYRIGHT ************/
+    /*********** FOOTER ************/
     .footer-banner {
-        max-height: 48px;
+        height: 48px;
     }
 
 
+    /*********** COPYRIGHT ************/
 
     .help-accord,
     .company-accord {
