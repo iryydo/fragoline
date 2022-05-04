@@ -631,10 +631,24 @@ a {
     }
 
     /*********** FOOTER ************/
+
+    .footer-container {
+        height: 358px;
+    }
+
     .footer-banner {
         height: 48px;
     }
 
+    .form-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .form {
+        width: 440px;
+    }
 
     /*********** COPYRIGHT ************/
 
