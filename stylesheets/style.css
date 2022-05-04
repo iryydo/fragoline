@@ -285,7 +285,7 @@ a {
 .footer-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    max-height: 354px;
+    /* max-height: 354px; */
 }
 
 .form-container h3 {
@@ -410,9 +410,8 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100px
-        /* temporaneo */
-    ;
+    height: 100px;
+    /* temporaneo */
     width: 100%;
     gap: 28px;
 }
@@ -485,6 +484,9 @@ a {
 /********************+******* MEDIA QUERY 2 ****************************/
 
 @media (max-width:1023px) {
+
+    /*********** NAV ************/
+
     .logo {
         padding: 15px;
     }
@@ -498,6 +500,7 @@ a {
     }
 
     /*********** CARD 1 ************/
+
     .add_paragraph {
         display: none;
     }
