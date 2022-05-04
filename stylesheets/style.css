@@ -351,13 +351,33 @@ a {
 }
 
 .help-you {
+    position: relative;
     margin: auto;
 }
 
 .company {
+    position: relative;
     margin: auto;
 }
 
+.help-you ul,
+.company ul {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.help-you h3,
+.company h3 {
+    margin-bottom: 21px;
+}
+
+.help-you svg,
+.company svg {
+    position: absolute;
+    top: 2px;
+    left: -40px;
+}
 
 /*********** FOLLOW US ************/
 
@@ -431,6 +451,10 @@ a {
     }
 }
 
+
+
+/********************+******* MEDIA QUERY 2 ****************************/
+
 @media (max-width:1023px) {
     .logo {
         padding: 15px;
@@ -455,7 +479,7 @@ a {
 
 }
 
-/********************+******* MEDIA QUERY 2 ****************************/
+/********************+******* MEDIA QUERY 3 ****************************/
 
 @media (min-width: 1024px) {
 
