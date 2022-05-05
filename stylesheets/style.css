@@ -69,14 +69,24 @@ a {
 
 /*********** NAVIGATION BAR ************/
 
+header {
+    margin: 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 17;
+}
+
 .nav-bar {
-    position: relative;
-    padding: 5px;
-    width: 100%;
-    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    position: relative;
+    padding: 5px;
+    width: 100%;
+    background-color: #fff;
 }
 
 
@@ -670,5 +680,7 @@ a {
 
 
 /* 
+
+- se vuoi da 1024px backg img a card media 1 e backg-attachment: fixed:
 -distanze in percentuale
--sticky footer
+- risolvi il header con il padding. 
