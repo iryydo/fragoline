@@ -1,0 +1,35 @@
+{
+  "devDependencies": {
+    "sass": "^1.51.0"
+  },
+  "name": "fragoline-2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "braces": "^3.0.2",
+    "anymatch": "^3.1.2",
+    "chokidar": "^3.5.3",
+    "binary-extensions": "^2.2.0",
+    "fsevents": "^2.3.2",
+    "fill-range": "^7.0.1",
+    "glob-parent": "^5.1.2",
+    "immutable": "^4.0.0",
+    "is-binary-path": "^2.1.0",
+    "is-glob": "^4.0.3",
+    "is-number": "^7.0.0",
+    "is-extglob": "^2.1.1",
+    "normalize-path": "^3.0.0",
+    "readdirp": "^3.6.0",
+    "source-map-js": "^1.0.2",
+    "picomatch": "^2.3.1",
+    "to-regex-range": "^5.0.1"
+  },
+  "scripts": {
+    "sass-dev": "sass --watch --style-expanded src/scss:assets/css",
+    "sass-prod": "sass --no-source-map --style-compressed src/scss:assets/css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
