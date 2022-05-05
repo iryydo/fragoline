@@ -1,4 +1,111 @@
-body p {
-  background-color: rebeccapurple;
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Roboto, Helvetica, sans-serif;
+  font-size: 10px;
+}
+
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+.banner {
+  background-color: #000;
+  text-align: center;
+  position: relative;
+  padding: 10px 0;
+  height: 32px;
+}
+
+.banner p {
+  margin: 0;
+  margin-right: 50px;
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.banner button {
+  background: none;
+  padding: 0;
+  border: none;
+  position: absolute;
+  top: 50%;
+  right: 4%;
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+}
+
+.banner button:hover {
+  cursor: pointer;
+}
+
+/*********** NAVIGATION BAR ************/
+header {
+  margin: 0;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 17;
+}
+
+.nav-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  position: relative;
+  padding: 5px;
+  width: 100%;
+  background-color: #fff;
+}
+
+.nav-link ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 30%;
+  left: 1%;
+}
+
+.nav-link ul li {
+  list-style-type: none;
+  margin-left: 15px;
+}
+
+.nav-link a {
+  text-decoration: none;
+  color: #000;
+}
+
+.nav-link ul img {
+  width: 20px;
+  height: 20px;
+}
+
+.logo {
+  padding: 30px;
+  border: 1px dotted #000;
+}
+
+.logo p {
+  color: #000;
+  font-size: 1.9rem;
+  display: inline-block;
+  margin: 0;
 }
 /*# sourceMappingURL=product_page.css.map */
