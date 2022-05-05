@@ -493,6 +493,10 @@ header {
         height: 65px;
     }
 
+    main {
+        padding-top: 97px;
+    }
+
     /*********** CARD 1 ************/
 
     .add_paragraph {
@@ -567,6 +571,10 @@ header {
     .nav-link ul li {
         font-size: 1.8rem;
         font-weight: 700;
+    }
+
+    main {
+        padding-top: 132px;
     }
 
     /*********** CARD 1 ************/
@@ -680,7 +688,6 @@ header {
 
 
 /* 
-
-- se vuoi da 1024px backg img a card media 1 e backg-attachment: fixed:
 -distanze in percentuale
-- risolvi il header con il padding. 
+-controlla per accessibilità
+-vedi pixel con precisione
