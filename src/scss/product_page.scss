@@ -23,6 +23,7 @@
 .results {
     display: flex;
     height: 70px;
+    padding: 27px 0 27px 24px;
 
     .result-number {
         color: $dark-grey;
@@ -32,6 +33,14 @@
 
 .visualization {
     display: flex;
+    gap: 12px;
+    padding: 27px 0 27px 24px;
+
+    button {
+        background: none;
+        padding: 0;
+        border: none;
+    }
 }
 
 
