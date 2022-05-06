@@ -16,96 +16,68 @@ body {
   margin: 0;
 }
 
-.banner {
-  background-color: #000;
-  text-align: center;
-  position: relative;
-  padding: 10px 0;
-  height: 32px;
+.container-main {
+  display: block;
 }
 
-.banner p {
-  margin: 0;
-  margin-right: 50px;
-  color: #fff;
-  font-size: 1.2rem;
-}
-
-.banner button {
-  background: none;
-  padding: 0;
-  border: none;
-  position: absolute;
-  top: 50%;
-  right: 4%;
-  -webkit-transform: translate(0, -50%);
-          transform: translate(0, -50%);
-}
-
-.banner button:hover {
-  cursor: pointer;
-}
-
-/*********** NAVIGATION BAR ************/
-header {
-  margin: 0;
-  position: fixed;
-  left: 0;
-  right: 0;
-  top: 0;
-  z-index: 17;
-}
-
-.nav-bar {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;
-  position: relative;
-  padding: 5px;
-  width: 100%;
+.title {
   background-color: #fff;
 }
 
-.nav-link ul {
+.title h1 {
+  font-size: 3.2rem;
+  font-weight: 400;
+  color: #000;
+}
+
+.results {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  position: absolute;
-  top: 30%;
-  left: 1%;
+  height: 70px;
 }
 
-.nav-link ul li {
-  list-style-type: none;
-  margin-left: 15px;
+.results .result-number {
+  color: #6b6b6b;
+  font-weight: 700;
 }
 
-.nav-link a {
-  text-decoration: none;
-  color: #000;
+.visualization {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-.nav-link ul img {
-  width: 20px;
-  height: 20px;
+@media (max-width: 1023px) {
+  main {
+    padding-top: 97px;
+  }
+  .title {
+    height: 86px;
+  }
+  .title h1 {
+    padding: 24px 0 24px 24px;
+  }
+  .visualization {
+    display: none;
+  }
+  .product-number {
+    display: none;
+  }
 }
 
-.logo {
-  padding: 30px;
-  border: 1px dotted #000;
-}
-
-.logo p {
-  color: #000;
-  font-size: 1.9rem;
-  display: inline-block;
-  margin: 0;
+@media (min-width: 1024px) {
+  main {
+    padding-top: 132px;
+  }
+  .title {
+    text-align: center;
+  }
+  .title h1 {
+    padding: 56px 0 58px 0;
+  }
+  .result-number {
+    display: none;
+  }
 }
 /*# sourceMappingURL=product_page.css.map */
