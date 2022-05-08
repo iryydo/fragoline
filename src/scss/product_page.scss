@@ -43,6 +43,60 @@
     }
 }
 
+// GALLERY
+
+.product {
+    display: flex;
+    flex-direction: column;
+
+    .product-media {
+        overflow: hidden;
+        line-height: 0;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .prod-name {
+        font-size: $text-m;
+        font-weight: $weight-m;
+    }
+
+    .description {
+        font-size: $text-m;
+        font-weight: $weight-s;
+    }
+
+    .add-basket {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        background-color: $primary-color;
+        border: none;
+        padding: 12px 8px;
+
+        .price {
+            display: flex;
+
+            .price-whole {
+                font-size: $text-m;
+                font-weight: $weight-m;
+            }
+
+            .price-fract {
+                font-size: $text-ms;
+                font-weight: $weight-m;
+            }
+        }
+
+        .discount {
+            font-size: $text-s;
+            font-weight: $weight-s;
+            text-decoration: line-through;
+        }
+    }
+}
 
 
 
