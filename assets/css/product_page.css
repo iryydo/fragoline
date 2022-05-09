@@ -138,8 +138,17 @@ body {
   .product-number {
     display: none;
   }
+  .grid-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    -webkit-column-gap: 1px;
+            column-gap: 1px;
+    row-gap: 24px;
+  }
   .add-basket {
-    margin: 36px auto 33px auto;
+    margin: 36px auto 9px auto;
   }
 }
 

@@ -22,8 +22,15 @@
 
     //GALLERY
 
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 1px;
+        row-gap: 24px;
+    }
+
     .add-basket {
-        margin: 36px auto 33px auto;
+        margin: 36px auto 9px auto;
     }
 }
 
