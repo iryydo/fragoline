@@ -1,4 +1,10 @@
 @media (max-width: 1023px) {
+    // NAV
+
+    .nav-bar {
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.07);
+    }
+
 
     main {
         padding-top: 97px;
@@ -20,6 +26,10 @@
 
     .product-number {
         display: none;
+    }
+
+    .result-number {
+        font-size: $text-m;
     }
 
     //GALLERY
@@ -51,6 +61,13 @@
 
 
 @media (min-width: 1024px) {
+
+    //NAV
+
+    .nav-bar {
+        box-shadow: 0 10px 10px rgba(0, 0, 0, 0.03);
+    }
+
     main {
         padding-top: 132px;
     }
