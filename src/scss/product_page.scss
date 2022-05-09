@@ -124,8 +124,9 @@
         font-weight: $weight-l;
         text-transform: uppercase;
         max-width: fit-content;
-        top: 2.812834%;
-        left: 2.812834%;
+        top: 3%;
+        left: 1%;
+        transform: translate(4px, 9px);
 
         span {
             background-color: $primary-color;
@@ -135,10 +136,12 @@
 
     .amount {
         position: absolute;
-        bottom: 3%; //temp
         font-size: $text-s;
         font-weight: $weight-l;
         max-width: fit-content;
+        bottom: 3%;
+        left: 1%;
+        transform: translate(4px, -10px);
 
         span {
             background-color: $primary-color;

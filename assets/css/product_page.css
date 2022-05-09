@@ -153,8 +153,10 @@ body {
   max-width: -webkit-fit-content;
   max-width: -moz-fit-content;
   max-width: fit-content;
-  top: 2.812834%;
-  left: 2.812834%;
+  top: 3%;
+  left: 1%;
+  -webkit-transform: translate(4px, 9px);
+          transform: translate(4px, 9px);
 }
 
 .product .new span {
@@ -164,12 +166,15 @@ body {
 
 .product .amount {
   position: absolute;
-  bottom: 3%;
   font-size: 1rem;
   font-weight: 800;
   max-width: -webkit-fit-content;
   max-width: -moz-fit-content;
   max-width: fit-content;
+  bottom: 3%;
+  left: 1%;
+  -webkit-transform: translate(4px, -10px);
+          transform: translate(4px, -10px);
 }
 
 .product .amount span {
