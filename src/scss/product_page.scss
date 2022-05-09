@@ -51,7 +51,7 @@
     flex-direction: column;
 
     .product-media {
-        // position: relative;
+        position: relative;
         overflow: hidden;
         line-height: 0;
 
@@ -113,23 +113,35 @@
         position: absolute;
         background: none;
         border: none;
-        top: 1.994652%;
-        right: 1.994652%;
-        transform: translate(-10%, -10%);
+        padding: 0;
+        top: 2.994652%;
+        right: 2.994652%;
     }
+
+    .new {
+        position: absolute;
+        font-size: $text-s;
+        background-color: $primary-color;
+        font-weight: $weight-l;
+        padding: 0 5px;
+        text-transform: uppercase;
+        max-width: fit-content;
+        top: 2.812834%;
+        left: 2.812834%;
+    }
+
+    .amount {
+        position: absolute;
+        bottom: 3%; //temp
+        font-size: $text-s;
+        font-weight: $weight-l;
+        background-color: $primary-color;
+        max-width: fit-content;
+        padding: 0 5px;
+    }
+
 }
 
-.new {
-    text-transform: uppercase;
-    font-size: $text-s;
-    font-weight: $weight-l;
-    background-color: $primary-color;
-    max-width: fit-content;
-    position: absolute;
-    top: 3.812834224598930481283422459893%;
-    left: 3.812834224598930481283422459893%;
-    transform: translate(-20%, -60%);
-}
 
 
 //MEDIA-QUERIES
