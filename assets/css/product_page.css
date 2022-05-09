@@ -120,7 +120,6 @@ body {
 .product .add-basket .discount {
   font-size: 1rem;
   font-weight: 400;
-  text-decoration: line-through;
 }
 
 @media (max-width: 1023px) {
@@ -138,6 +137,9 @@ body {
   }
   .product-number {
     display: none;
+  }
+  .add-basket {
+    margin: 36px auto 33px auto;
   }
 }
 
