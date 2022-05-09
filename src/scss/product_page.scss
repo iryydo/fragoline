@@ -71,6 +71,8 @@
     .add-basket {
         display: flex;
         align-items: center;
+        position: relative;
+        min-width: 150px;
         gap: 8px;
         background-color: $primary-color;
         border: none;
@@ -78,6 +80,7 @@
 
         .price {
             display: flex;
+            align-items: center;
 
             .price-whole {
                 font-size: $text-m;
@@ -94,8 +97,17 @@
             font-size: $text-s;
             font-weight: $weight-s;
         }
+
+        .basket-icon {
+            background-color: $primary-color;
+            border: none;
+            position: absolute;
+            right: 13.44px;
+            top: 12px;
+        }
     }
 }
+
 
 
 
