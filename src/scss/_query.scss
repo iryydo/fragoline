@@ -35,7 +35,6 @@
     //GALLERY
 
     .grid-container {
-        display: grid;
         grid-template-columns: 1fr 1fr;
         column-gap: 1px;
         row-gap: 24px;
@@ -62,15 +61,17 @@
 
 @media (min-width: 1024px) {
 
+    main {
+        padding-top: 132px;
+    }
+
     //NAV
 
     .nav-bar {
         box-shadow: 0 10px 10px rgba(0, 0, 0, 0.03);
     }
 
-    main {
-        padding-top: 132px;
-    }
+    //UPPER 
 
     .title {
         text-align: center;
@@ -82,5 +83,11 @@
 
     .result-number {
         display: none;
+    }
+
+    //GALLERY
+    .grid-container {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        row-gap: 2px;
     }
 }
