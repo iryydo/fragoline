@@ -46,7 +46,7 @@
 // GALLERY
 
 .product {
-    position: relative;
+    // position: relative;
     display: flex;
     flex-direction: column;
 
@@ -121,13 +121,16 @@
     .new {
         position: absolute;
         font-size: $text-s;
-        background-color: $primary-color;
         font-weight: $weight-l;
-        padding: 0 5px;
         text-transform: uppercase;
         max-width: fit-content;
         top: 2.812834%;
         left: 2.812834%;
+
+        span {
+            background-color: $primary-color;
+            padding: 0 5px;
+        }
     }
 
     .amount {
@@ -135,9 +138,12 @@
         bottom: 3%; //temp
         font-size: $text-s;
         font-weight: $weight-l;
-        background-color: $primary-color;
         max-width: fit-content;
-        padding: 0 5px;
+
+        span {
+            background-color: $primary-color;
+            padding: 0 5px;
+        }
     }
 
 }

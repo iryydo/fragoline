@@ -60,7 +60,6 @@ body {
 }
 
 .product {
-  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -149,9 +148,7 @@ body {
 .product .new {
   position: absolute;
   font-size: 1rem;
-  background-color: #fff;
   font-weight: 800;
-  padding: 0 5px;
   text-transform: uppercase;
   max-width: -webkit-fit-content;
   max-width: -moz-fit-content;
@@ -160,15 +157,23 @@ body {
   left: 2.812834%;
 }
 
+.product .new span {
+  background-color: #fff;
+  padding: 0 5px;
+}
+
 .product .amount {
   position: absolute;
   bottom: 3%;
   font-size: 1rem;
   font-weight: 800;
-  background-color: #fff;
   max-width: -webkit-fit-content;
   max-width: -moz-fit-content;
   max-width: fit-content;
+}
+
+.product .amount span {
+  background-color: #fff;
   padding: 0 5px;
 }
 
