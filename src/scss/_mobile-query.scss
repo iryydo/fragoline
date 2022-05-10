@@ -1,0 +1,82 @@
+@media (max-width: 1023px) {
+    // NAV
+
+    .nav-bar {
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.07);
+    }
+
+
+    main {
+        padding-top: 97px;
+    }
+
+    //UPPER
+
+    .title {
+        height: 86px;
+
+        h1 {
+            padding: 24px 0 24px 24px;
+        }
+    }
+
+    .visualization {
+        display: none;
+    }
+
+    .product-number {
+        display: none;
+    }
+
+    .result-number {
+        font-size: $text-m;
+    }
+
+    //GALLERY
+
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 1px;
+        row-gap: 24px;
+    }
+
+    //CARDS
+
+    .prod-name {
+        margin-top: 19px;
+        margin-left: 8px;
+    }
+
+    .description {
+        margin-top: 4px;
+        margin-left: 8px;
+    }
+
+    .add-basket {
+        margin: 36px auto 9px auto;
+        max-width: 171px;
+        background-color: $primary-color;
+        padding: 12px 8px;
+
+        .basket-icon {
+            background-color: $primary-color;
+        }
+    }
+
+
+    .new {
+
+        span {
+            background-color: $primary-color;
+            padding: 0 5px;
+        }
+    }
+
+    .amount {
+
+        span {
+            background-color: $primary-color;
+            padding: 0 5px;
+        }
+    }
+}
