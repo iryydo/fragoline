@@ -56,6 +56,22 @@
         margin: 36px auto 9px auto;
         max-width: 171px;
     }
+
+    .new {
+
+        span {
+            background-color: $primary-color;
+            padding: 0 5px;
+        }
+    }
+
+    .amount {
+
+        span {
+            background-color: $primary-color;
+            padding: 0 5px;
+        }
+    }
 }
 
 
@@ -106,5 +122,21 @@
     .grid-container {
         grid-template-columns: 1fr 1fr 1fr 1fr;
         column-gap: 2px;
+    }
+
+    //CARDS
+
+    .new {
+
+        span {
+            background-color: transparent;
+        }
+    }
+
+    .amount {
+
+        span {
+            background-color: transparent;
+        }
     }
 }

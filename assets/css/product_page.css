@@ -102,7 +102,6 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  position: relative;
   min-width: 150px;
   gap: 8px;
   background-color: #fff;
@@ -137,7 +136,7 @@ body {
 .product .add-basket .basket-icon {
   background-color: #fff;
   border: none;
-  position: absolute;
+  margin-left: auto;
   right: 13.44px;
   top: 12px;
 }
@@ -165,11 +164,6 @@ body {
           transform: translate(4px, 9px);
 }
 
-.product .new span {
-  background-color: #fff;
-  padding: 0 5px;
-}
-
 .product .amount {
   position: absolute;
   font-size: 1rem;
@@ -181,11 +175,6 @@ body {
   left: 1%;
   -webkit-transform: translate(4px, -10px);
           transform: translate(4px, -10px);
-}
-
-.product .amount span {
-  background-color: #fff;
-  padding: 0 5px;
 }
 
 @media (max-width: 1023px) {
@@ -230,6 +219,14 @@ body {
     margin: 36px auto 9px auto;
     max-width: 171px;
   }
+  .new span {
+    background-color: #fff;
+    padding: 0 5px;
+  }
+  .amount span {
+    background-color: #fff;
+    padding: 0 5px;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -267,6 +264,12 @@ body {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     -webkit-column-gap: 2px;
             column-gap: 2px;
+  }
+  .new span {
+    background-color: transparent;
+  }
+  .amount span {
+    background-color: transparent;
   }
 }
 /*# sourceMappingURL=product_page.css.map */

@@ -78,7 +78,6 @@
     .add-basket {
         display: flex;
         align-items: center;
-        position: relative;
         min-width: 150px;
         gap: 8px;
         background-color: $primary-color;
@@ -108,7 +107,7 @@
         .basket-icon {
             background-color: $primary-color;
             border: none;
-            position: absolute;
+            margin-left: auto;
             right: 13.44px;
             top: 12px;
         }
@@ -132,11 +131,6 @@
         top: 3%;
         left: 1%;
         transform: translate(4px, 9px);
-
-        span {
-            background-color: $primary-color;
-            padding: 0 5px;
-        }
     }
 
     .amount {
@@ -147,11 +141,6 @@
         bottom: 3%;
         left: 1%;
         transform: translate(4px, -10px);
-
-        span {
-            background-color: $primary-color;
-            padding: 0 5px;
-        }
     }
 
 }
