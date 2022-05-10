@@ -68,10 +68,19 @@
     //NAV
 
     .nav-bar {
-        box-shadow: 0 10px 10px rgba(0, 0, 0, 0.03);
+        box-shadow: 0 30px 30px rgba(0, 0, 0, 0.02);
     }
 
     //UPPER 
+    .visualization {
+        button:hover {
+            cursor: pointer;
+        }
+
+        .icon-visualization {
+            margin-left: 19px;
+        }
+    }
 
     .title {
         text-align: center;
@@ -85,9 +94,17 @@
         display: none;
     }
 
+    .product-number {
+        font-size: $text-ml;
+        font-weight: $weight-m;
+        color: $grey;
+        margin-left: auto;
+        margin-right: 19px;
+    }
+
     //GALLERY
     .grid-container {
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        row-gap: 2px;
+        column-gap: 2px;
     }
 }
