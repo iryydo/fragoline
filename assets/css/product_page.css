@@ -16,6 +16,11 @@ body {
   margin: 0;
 }
 
+a {
+  color: unset;
+  text-decoration: none;
+}
+
 .container-main {
   display: block;
 }
@@ -78,7 +83,6 @@ body {
 .product .product-media {
   position: relative;
   overflow: hidden;
-  line-height: 0;
 }
 
 .product .product-media img {
