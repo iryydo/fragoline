@@ -288,5 +288,10 @@ body {
   .amount span {
     background-color: transparent;
   }
+  .spacer {
+    background-color: transparent;
+    height: 64px;
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=product_page.css.map */
