@@ -202,8 +202,8 @@ a {
     font-size: 1.4rem;
   }
   .grid-container {
-    -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
     -webkit-column-gap: 1px;
             column-gap: 1px;
     row-gap: 24px;
@@ -266,8 +266,8 @@ a {
     margin-right: 19px;
   }
   .grid-container {
-    -ms-grid-columns: 1fr 1fr 1fr 1fr;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+    -ms-grid-columns: (1fr)[4];
+        grid-template-columns: repeat(4, 1fr);
     -webkit-column-gap: 2px;
             column-gap: 2px;
   }

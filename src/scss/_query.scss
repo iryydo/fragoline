@@ -35,7 +35,7 @@
     //GALLERY
 
     .grid-container {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: repeat(2, 1fr);
         column-gap: 1px;
         row-gap: 24px;
     }
@@ -127,7 +127,7 @@
 
     //GALLERY
     .grid-container {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: repeat(4, 1fr);
         column-gap: 2px;
     }
 
@@ -177,8 +177,6 @@
 }
 
 
-//repeat 4 1fr
-//tutto il accordion è un button non solo il più
 //SUDDIVIDI SCSS IN PARZIALI
 //vedi img source per media query
 //vedi se aggiungere un query tablet con 1fr 1fr 1fr

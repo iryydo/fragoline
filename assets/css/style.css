@@ -403,10 +403,16 @@ header {
     justify-content: flex-start;
     align-items: center;
     position: relative;
+    width: 100%;
     padding-left: 26px;
     background-color: #F5F5F5;
     border: 1px solid #eaeaea;
     gap: 20px;
+}
+
+.help-accord:hover,
+.company-accord:hover {
+    cursor: pointer;
 }
 
 .help-accord p,
