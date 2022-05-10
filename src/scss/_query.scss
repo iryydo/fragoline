@@ -55,7 +55,14 @@
     .add-basket {
         margin: 36px auto 9px auto;
         max-width: 171px;
+        background-color: $primary-color;
+        padding: 12px 8px;
+
+        .basket-icon {
+            background-color: $primary-color;
+        }
     }
+
 
     .new {
 
@@ -125,6 +132,26 @@
     }
 
     //CARDS
+
+    .prod-name {
+        margin: 35px 0 0 16px;
+    }
+
+    .description {
+        margin: 4px 0 0 16px;
+    }
+
+    .add-basket {
+        margin: 34px 0 20px 18px;
+        background-color: transparent;
+        padding-left: 0;
+        padding-right: 0;
+
+        .basket-icon {
+            display: none;
+        }
+    }
+
 
     .new {
 

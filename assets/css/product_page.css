@@ -104,9 +104,7 @@ body {
           align-items: center;
   min-width: 150px;
   gap: 8px;
-  background-color: #fff;
   border: none;
-  padding: 12px 8px;
 }
 
 .product .add-basket .price {
@@ -134,7 +132,6 @@ body {
 }
 
 .product .add-basket .basket-icon {
-  background-color: #fff;
   border: none;
   margin-left: auto;
   right: 13.44px;
@@ -218,6 +215,11 @@ body {
   .add-basket {
     margin: 36px auto 9px auto;
     max-width: 171px;
+    background-color: #fff;
+    padding: 12px 8px;
+  }
+  .add-basket .basket-icon {
+    background-color: #fff;
   }
   .new span {
     background-color: #fff;
@@ -264,6 +266,21 @@ body {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     -webkit-column-gap: 2px;
             column-gap: 2px;
+  }
+  .prod-name {
+    margin: 35px 0 0 16px;
+  }
+  .description {
+    margin: 4px 0 0 16px;
+  }
+  .add-basket {
+    margin: 34px 0 20px 18px;
+    background-color: transparent;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .add-basket .basket-icon {
+    display: none;
   }
   .new span {
     background-color: transparent;
