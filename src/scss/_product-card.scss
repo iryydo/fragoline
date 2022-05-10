@@ -1,0 +1,94 @@
+.grid-container {
+    display: grid;
+}
+
+.product {
+    // position: relative;
+    display: flex;
+    flex-direction: column;
+
+    .product-media {
+        position: relative;
+        overflow: hidden;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .prod-name {
+        font-size: $text-m;
+        font-weight: $weight-m;
+    }
+
+    .description {
+        font-size: $text-m;
+        font-weight: $weight-s;
+    }
+
+    .add-basket {
+        display: flex;
+        align-items: center;
+        min-width: 150px;
+        gap: 8px;
+        border: none;
+
+        .price {
+            display: flex;
+            align-items: center;
+
+            .price-whole {
+                font-size: $text-m;
+                font-weight: $weight-m;
+            }
+
+            .price-fract {
+                font-size: $text-ms;
+                font-weight: $weight-m;
+            }
+        }
+
+        .discount {
+            font-size: $text-s;
+            font-weight: $weight-s;
+        }
+
+        .basket-icon {
+            border: none;
+            margin-left: auto;
+            right: 13.44px;
+            top: 12px;
+        }
+    }
+
+    .heart {
+        position: absolute;
+        background: none;
+        border: none;
+        padding: 0;
+        top: 2.994652%;
+        right: 2.994652%;
+    }
+
+    .new {
+        position: absolute;
+        font-size: $text-s;
+        font-weight: $weight-l;
+        text-transform: uppercase;
+        max-width: fit-content;
+        top: 3%;
+        left: 1%;
+        transform: translate(4px, 9px);
+    }
+
+    .amount {
+        position: absolute;
+        font-size: $text-s;
+        font-weight: $weight-l;
+        max-width: fit-content;
+        bottom: 3%;
+        left: 1%;
+        transform: translate(4px, -10px);
+    }
+
+}

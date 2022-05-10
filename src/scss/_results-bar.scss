@@ -1,0 +1,23 @@
+.results {
+    display: flex;
+    height: 70px;
+    padding: 27px 24px 27px 24px;
+
+    .result-number {
+        color: $dark-grey;
+        font-weight: $weight-m;
+    }
+}
+
+.visualization {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+
+    button {
+        background: none;
+        padding: 0;
+        border: none;
+    }
+}
