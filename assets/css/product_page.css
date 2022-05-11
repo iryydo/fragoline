@@ -138,8 +138,6 @@ a {
 .product .add-basket .basket-icon {
   border: none;
   margin-left: auto;
-  right: 13.44px;
-  top: 12px;
 }
 
 .product .heart {
@@ -188,7 +186,7 @@ a {
   .visualization {
     display: none;
   }
-  .product-number {
+  .visualization .product-number {
     display: none;
   }
   .result-number {
