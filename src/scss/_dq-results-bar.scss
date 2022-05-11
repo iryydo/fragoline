@@ -1,0 +1,22 @@
+.visualization {
+    button:hover {
+        cursor: pointer;
+    }
+
+    .icon-visualization {
+        margin-left: 19px;
+    }
+}
+
+
+.result-number {
+    display: none;
+}
+
+.product-number {
+    font-size: $text-ml;
+    font-weight: $weight-m;
+    color: $grey;
+    margin-left: auto;
+    margin-right: 19px;
+}

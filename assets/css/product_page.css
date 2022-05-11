@@ -179,9 +179,6 @@ a {
     -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.07);
             box-shadow: 0 5px 10px rgba(0, 0, 0, 0.07);
   }
-  main {
-    padding-top: 97px;
-  }
   .title {
     height: 86px;
   }
@@ -203,6 +200,9 @@ a {
     -webkit-column-gap: 1px;
             column-gap: 1px;
     row-gap: 24px;
+  }
+  main {
+    padding-top: 97px;
   }
   .prod-name {
     margin-top: 19px;
@@ -232,24 +232,21 @@ a {
 }
 
 @media (min-width: 1024px) {
-  main {
-    padding-top: 132px;
-  }
   .nav-bar {
     -webkit-box-shadow: 0 30px 30px rgba(0, 0, 0, 0.02);
             box-shadow: 0 30px 30px rgba(0, 0, 0, 0.02);
-  }
-  .visualization button:hover {
-    cursor: pointer;
-  }
-  .visualization .icon-visualization {
-    margin-left: 19px;
   }
   .title {
     text-align: center;
   }
   .title h1 {
     padding: 56px 0 58px 0;
+  }
+  .visualization button:hover {
+    cursor: pointer;
+  }
+  .visualization .icon-visualization {
+    margin-left: 19px;
   }
   .result-number {
     display: none;
@@ -260,6 +257,9 @@ a {
     color: #9d9d9d;
     margin-left: auto;
     margin-right: 19px;
+  }
+  main {
+    padding-top: 132px;
   }
   .grid-container {
     -ms-grid-columns: (1fr)[4];

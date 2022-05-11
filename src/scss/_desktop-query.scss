@@ -1,93 +1,19 @@
 @media (min-width: 1024px) {
 
-    main {
-        padding-top: 132px;
-    }
-
     //NAV
 
-    .nav-bar {
-        box-shadow: 0 30px 30px rgba(0, 0, 0, 0.02);
-    }
+    @import "./dq-navbar";
 
     //UPPER 
-    .visualization {
-        button:hover {
-            cursor: pointer;
-        }
 
-        .icon-visualization {
-            margin-left: 19px;
-        }
-    }
+    @import "./dq-title-bar";
 
-    .title {
-        text-align: center;
-
-        h1 {
-            padding: 56px 0 58px 0;
-        }
-    }
-
-    .result-number {
-        display: none;
-    }
-
-    .product-number {
-        font-size: $text-ml;
-        font-weight: $weight-m;
-        color: $grey;
-        margin-left: auto;
-        margin-right: 19px;
-    }
+    @import "./dq-results-bar";
 
     //GALLERY
-    .grid-container {
-        grid-template-columns: repeat(4, 1fr);
-        column-gap: 2px;
-    }
+    @import "./dq-gallery";
 
     //CARDS
+    @import "./dq-product-card";
 
-    .prod-name {
-        margin: 35px 0 0 16px;
-    }
-
-    .description {
-        margin: 4px 0 0 16px;
-    }
-
-    .add-basket {
-        margin: 34px 0 20px 18px;
-        background-color: transparent;
-        padding-left: 0;
-        padding-right: 0;
-
-        .basket-icon {
-            display: none;
-        }
-    }
-
-
-    .new {
-
-        span {
-            background-color: transparent;
-        }
-    }
-
-    .amount {
-
-        span {
-            background-color: transparent;
-        }
-    }
-
-    //BOTTOM
-
-    .spacer {
-        background-color: transparent;
-        height: 64px;
-        width: 100%;
-    }
 }

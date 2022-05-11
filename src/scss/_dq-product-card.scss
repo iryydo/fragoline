@@ -1,0 +1,41 @@
+ .prod-name {
+     margin: 35px 0 0 16px;
+ }
+
+ .description {
+     margin: 4px 0 0 16px;
+ }
+
+ .add-basket {
+     margin: 34px 0 20px 18px;
+     background-color: transparent;
+     padding-left: 0;
+     padding-right: 0;
+
+     .basket-icon {
+         display: none;
+     }
+ }
+
+
+ .new {
+
+     span {
+         background-color: transparent;
+     }
+ }
+
+ .amount {
+
+     span {
+         background-color: transparent;
+     }
+ }
+
+ //BOTTOM
+
+ .spacer {
+     background-color: transparent;
+     height: 64px;
+     width: 100%;
+ }
