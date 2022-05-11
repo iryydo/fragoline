@@ -1,17 +1,17 @@
 @media (max-width: 1023px) {
 
     // NAV
-    @import "/src/scss/mq-navbar";
+    @import "./mq-navbar";
 
     //UPPER
-    @import "/src/scss/mq-title-bar";
+    @import "./mq-title-bar";
 
-    @import "/src/scss/mq-results-bar";
+    @import "./mq-results-bar";
 
     //GALLERY
-    @import "/src/scss/mq-gallery";
+    @import "./mq-gallery";
 
     //CARDS
-    @import "/src/scss/mq-product-card";
+    @import "./mq-product-card";
 
 }

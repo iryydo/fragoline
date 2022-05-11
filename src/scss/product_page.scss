@@ -10,23 +10,23 @@
 }
 
 //TITLE BAR
-@import "/src/scss/title-bar";
+@import "./title-bar";
 
 //RESULTS BAR
-@import "/src/scss/results-bar";
+@import "./results-bar";
 
 // GALLERY
-@import "/src/scss/product-card";
+@import "./product-card";
 
 //MEDIA-QUERIES
 @import "./query";
 
-
-//SUDDIVIDI SCSS IN PARZIALI
+// TAB INDEX AL FORM
+//AGGIUNGI ALT
+//VEDI LABEL, TYPE ECC.
+//fai i parziali di desktop-query
 //vedi img source per media query
-//vedi se aggiungere un query tablet con 1fr 1fr 1fr
 //controlla i nesting
 //creare e implementare altre variabili
-//aggiungi anchor all'immagine e all'h2 che portano al product
 //vedi il tab navigate
 //vedi button, img alt e accessibilità
