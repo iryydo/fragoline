@@ -6,4 +6,24 @@
     }
 }
 
-@media (min-width: 1024px) {}
+@media (min-width: 1024px) {
+
+    .breadcrumbs {
+        height: 72px;
+        padding: 0 23px;
+
+        .back-arrow {
+            padding: 19px;
+        }
+
+        .path-container {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            width: 100%;
+            height: 100%;
+            font-size: $text-ms;
+            font-weight: $weight-m;
+        }
+    }
+}

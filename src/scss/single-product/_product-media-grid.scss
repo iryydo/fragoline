@@ -22,7 +22,18 @@
 }
 
 @media (min-width: 1024px) {
+
+    .product-media {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
     .back-arrow.to-hide {
+        display: none;
+    }
+
+    .heart {
         display: none;
     }
 }
