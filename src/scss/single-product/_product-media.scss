@@ -1,0 +1,28 @@
+@import '../typography';
+
+
+@media (max-width: 1023px) {
+    .hide {
+        display: none;
+    }
+
+    .product {
+        .back-arrow {
+            position: absolute;
+            top: 5.144%;
+            left: 7.0906%;
+        }
+
+        .heart {
+            top: 4.8%;
+            right: 6.9333%;
+        }
+    }
+
+}
+
+@media (min-width: 1024px) {
+    .back-arrow.to-hide {
+        display: none;
+    }
+}

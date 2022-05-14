@@ -1,1 +1,35 @@
-/* No CSS *//*# sourceMappingURL=product.css.map */
+@media (max-width: 1023px) {
+  .breadcrumbs {
+    display: none;
+  }
+}
+
+@media (max-width: 1023px) {
+  .hide {
+    display: none;
+  }
+  .product .back-arrow {
+    position: absolute;
+    top: 5.144%;
+    left: 7.0906%;
+  }
+  .product .heart {
+    top: 4.8%;
+    right: 6.9333%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .back-arrow.to-hide {
+    display: none;
+  }
+}
+
+.product-text {
+  background-color: red;
+}
+
+.product-media {
+  line-height: 0;
+}
+/*# sourceMappingURL=product.css.map */

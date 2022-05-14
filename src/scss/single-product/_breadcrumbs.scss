@@ -1,0 +1,9 @@
+@import '../typography';
+
+@media (max-width: 1023px) {
+    .breadcrumbs {
+        display: none;
+    }
+}
+
+@media (min-width: 1024px) {}

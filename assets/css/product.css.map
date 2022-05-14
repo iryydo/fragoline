@@ -1,8 +1,14 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "ACEA,MAAM,EAAE,SAAS,EAAE,MAAM;EACrB,AAAA,YAAY,CAAC;IACT,OAAO,EAAE,IAAI;GAChB;;;AEFL,MAAM,EAAE,SAAS,EAAE,MAAM;EACrB,AAAA,KAAK,CAAC;IACF,OAAO,EAAE,IAAI;GAChB;EAED,AACI,QADI,CACJ,WAAW,CAAC;IACR,QAAQ,EAAE,QAAQ;IAClB,GAAG,EAAE,MAAM;IACX,IAAI,EAAE,OAAO;GAChB;EALL,AAOI,QAPI,CAOJ,MAAM,CAAC;IACH,GAAG,EAAE,IAAI;IACT,KAAK,EAAE,OAAO;GACjB;;;AAKT,MAAM,EAAE,SAAS,EAAE,MAAM;EACrB,AAAA,WAAW,AAAA,QAAQ,CAAC;IAChB,OAAO,EAAE,IAAI;GAChB;;;AEvBL,AAAA,aAAa,CAAC;EACV,gBAAgB,EAAE,GAAG;CACxB;;ALDD,AAAA,cAAc,CAAC;EACX,WAAW,EAAE,CAAC;CACjB",
     "sources": [
-        "../../src/scss/product.scss"
+        "../../src/scss/product.scss",
+        "../../src/scss/single-product/_breadcrumbs.scss",
+        "../../src/scss/_typography.scss",
+        "../../src/scss/single-product/_product-media.scss",
+        "../../src/scss/_typography.scss",
+        "../../src/scss/single-product/_single-product-detail.scss",
+        "../../src/scss/_typography.scss"
     ],
     "names": [],
     "file": "product.css"
