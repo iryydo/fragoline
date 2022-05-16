@@ -12,7 +12,6 @@ const productsContainer = document.querySelector(".grid-container");
 toggleGalleryVisualButton.addEventListener("click", toggleGalleryView);
 
 function toggleGalleryView(event) {
-    event.stopPropagation();
     productsContainer.classList.add("gallery-mode");
     toggleGalleryVisualButton.classList.add("selected");
     toggleCardVisualButton.classList.remove("selected");
@@ -24,7 +23,6 @@ function toggleGalleryView(event) {
 toggleCardVisualButton.addEventListener("click", toggleCardView);
 
 function toggleCardView(event) {
-    event.stopPropagation();
     productsContainer.classList.remove("gallery-mode");
     toggleCardVisualButton.classList.add("selected");
     toggleGalleryVisualButton.classList.remove("selected");

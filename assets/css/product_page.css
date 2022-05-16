@@ -277,6 +277,12 @@ a {
     -ms-grid-columns: (1fr)[6];
         grid-template-columns: repeat(6, 1fr);
   }
+  .container-main .grid-container.gallery-mode .product-text {
+    display: none;
+  }
+  .container-main .grid-container.gallery-mode .overlay {
+    display: none;
+  }
   .prod-name {
     margin: 35px 0 0 16px;
   }

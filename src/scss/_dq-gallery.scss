@@ -12,6 +12,15 @@
      .grid-container {
          &.gallery-mode {
              grid-template-columns: repeat(6, 1fr);
+
+             //card-text display none
+             .product-text {
+                 display: none;
+             }
+
+             .overlay {
+                 display: none;
+             }
          }
 
      }
