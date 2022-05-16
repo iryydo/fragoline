@@ -1,11 +1,10 @@
-/* TOGGLE VISUALIZATION */
+/************************ TOGGLE VISUALIZATION *************************/
 
 const toggleGalleryVisualButton = document.querySelector("#gallery-visualization");
 
 const toggleCardVisualButton = document.querySelector("#icon-visualization");
 
 const productsContainer = document.querySelector(".grid-container");
-
 
 
 //aggiungi classe a grid
