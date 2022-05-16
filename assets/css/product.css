@@ -98,6 +98,11 @@
           align-items: center;
 }
 
+.product-media img {
+  overflow: hidden;
+  width: 100%;
+}
+
 @media (max-width: 1023px) {
   .product .basket-button {
     margin: 47px auto;
@@ -144,6 +149,7 @@
   }
   .product .price-details {
     margin: 0 7.8504% 47px 7.8504%;
+    width: auto;
   }
   .product .price-whole {
     font-size: 2rem;
@@ -168,10 +174,14 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    gap: 2px;
   }
   .product .basket-button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     height: 64px;
-    width: 71.9626%;
+    width: 71.9626;
     margin: 0;
   }
   .product .heart-button {

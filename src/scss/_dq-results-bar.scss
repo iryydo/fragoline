@@ -6,6 +6,14 @@
     .icon-visualization {
         margin-left: 19px;
     }
+
+    .icon-visualization.selected {
+        transform: scale(1.08);
+    }
+
+    .gallery-visualization.selected {
+        transform: scale(1.08);
+    }
 }
 
 

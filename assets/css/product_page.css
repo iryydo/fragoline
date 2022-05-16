@@ -246,6 +246,14 @@ a {
   .visualization .icon-visualization {
     margin-left: 19px;
   }
+  .visualization .icon-visualization.selected {
+    -webkit-transform: scale(1.08);
+            transform: scale(1.08);
+  }
+  .visualization .gallery-visualization.selected {
+    -webkit-transform: scale(1.08);
+            transform: scale(1.08);
+  }
   .result-number {
     display: none;
   }
@@ -264,6 +272,10 @@ a {
         grid-template-columns: repeat(4, 1fr);
     -webkit-column-gap: 2px;
             column-gap: 2px;
+  }
+  .container-main .grid-container.gallery-mode {
+    -ms-grid-columns: (1fr)[6];
+        grid-template-columns: repeat(6, 1fr);
   }
   .prod-name {
     margin: 35px 0 0 16px;
