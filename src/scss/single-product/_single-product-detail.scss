@@ -1,24 +1,80 @@
 @import '../typography';
 
-.product-text {
-    background-color: red;
-
-}
+.product-text {}
 
 
 
 @media (max-width: 1023px) {
     .product {
+
+        .product-text {
+            padding: 0 24px;
+        }
+
         .prod-name {
             font-size: $title-s;
+            margin-left: 0;
+        }
+
+        .description {
+            margin-left: 0;
+        }
+
+        .price-details {
+            width: 100%;
+            display: flex;
+            gap: 8px;
+            align-items: center;
+
+        }
+
+        .price-whole {
+            font-size: $text-l;
+            font-weight: $weight-l;
+        }
+
+        .discount-percent {
+            font-size: $text-ml;
+            font-weight: $weight-m;
+        }
+
+        .discount {
+            font-size: $text-ml;
+            font-weight: $weight-s;
+        }
+
+        .basket-button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            font-size: $text-ml;
+            font-weight: $weight-m;
+            background-color: $black;
+            border: none;
+            margin: 25px auto;
+            height: 48px;
+            width: 328px;
+            color: $primary-color;
+
+
+
         }
     }
+
+
+
 }
+
 
 @media (min-width: 1024px) {
     .product {
         .prod-name {
             font-size: $title-sm;
+        }
+
+        .description {
+            font-size: $text-ml;
         }
     }
 }
