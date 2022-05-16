@@ -46,8 +46,8 @@
   .product {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 66% 33%;
-        grid-template-columns: 66% 33%;
+    -ms-grid-columns: 1fr 33%;
+        grid-template-columns: 1fr 33%;
   }
   .product .product-media {
     display: -ms-grid;
@@ -181,8 +181,12 @@
     display: -ms-flexbox;
     display: flex;
     height: 64px;
-    width: 71.9626;
+    width: 71.9626%;
     margin: 0;
+    padding: 0 16px;
+  }
+  .product .basket-button span {
+    margin-right: auto;
   }
   .product .heart-button {
     background-color: #000;

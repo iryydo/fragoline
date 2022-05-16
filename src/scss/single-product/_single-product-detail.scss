@@ -118,8 +118,13 @@
         .basket-button {
             display: flex;
             height: 64px;
-            width: 71.9626;
+            width: 71.9626%;
             margin: 0;
+            padding: 0 16px;
+
+            span {
+                margin-right: auto;
+            }
         }
 
         .heart-button {

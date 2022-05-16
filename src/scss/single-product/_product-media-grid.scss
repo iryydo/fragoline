@@ -25,7 +25,7 @@
 
     .product {
         display: grid;
-        grid-template-columns: 66% 33%;
+        grid-template-columns: 1fr 33%;
 
         .product-media {
             display: grid;
