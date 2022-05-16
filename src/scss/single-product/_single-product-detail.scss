@@ -1,30 +1,49 @@
 @import '../typography';
 
-.product-text {}
+.basket-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    font-size: $text-ml;
+    font-weight: $weight-m;
+    background-color: $black;
+    border: none;
+    margin: 25px auto;
+    height: 48px;
+    width: 87.2340%;
+    color: $primary-color;
+}
 
+.price-details {
+    width: 100%;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
 
 
 @media (max-width: 1023px) {
     .product {
-
-        .product-text {
-            padding: 0 24px;
+        .basket-button {
+            margin: 47px auto;
+            height: 64px;
+            width: 87.4666%;
         }
 
         .prod-name {
             font-size: $title-s;
             margin-left: 0;
+            padding: 0 6.4%;
         }
 
         .description {
             margin-left: 0;
+            padding: 0 6.4%;
         }
 
         .price-details {
-            width: 100%;
-            display: flex;
-            gap: 8px;
-            align-items: center;
+            padding: 0 6.4%;
 
         }
 
@@ -43,27 +62,7 @@
             font-weight: $weight-s;
         }
 
-        .basket-button {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 12px;
-            font-size: $text-ml;
-            font-weight: $weight-m;
-            background-color: $black;
-            border: none;
-            margin: 25px auto;
-            height: 48px;
-            width: 328px;
-            color: $primary-color;
-
-
-
-        }
     }
-
-
-
 }
 
 
@@ -71,10 +70,54 @@
     .product {
         .prod-name {
             font-size: $title-sm;
+            margin: 0 7.8504%;
         }
 
         .description {
             font-size: $text-ml;
+            margin: 0 7.8504% 30px 7.8504%;
+
+        }
+
+        .price-details {
+            margin: 0 7.8504% 47px 7.8504%;
+        }
+
+        .price-whole {
+            font-size: $text-l;
+            font-weight: $weight-l;
+        }
+
+        .discount-percent {
+            font-size: $text-ml;
+            font-weight: $weight-m;
+        }
+
+        .discount {
+            font-size: $text-ml;
+            font-weight: $weight-s;
+        }
+
+        .button-container {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .basket-button {
+            height: 64px;
+            width: 71.9626%;
+            margin: 0;
+        }
+
+        .heart-button {
+            background-color: $black;
+            color: $primary-color;
+            margin: 0;
+            border: none;
+            width: 11.9626%;
+            height: 64px;
         }
     }
 }

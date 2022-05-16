@@ -66,26 +66,55 @@
   }
 }
 
+.basket-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 12px;
+  font-size: 1.6rem;
+  font-weight: 700;
+  background-color: #000;
+  border: none;
+  margin: 25px auto;
+  height: 48px;
+  width: 87.2340%;
+  color: #fff;
+}
+
+.price-details {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 8px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 @media (max-width: 1023px) {
-  .product .product-text {
-    padding: 0 24px;
+  .product .basket-button {
+    margin: 47px auto;
+    height: 64px;
+    width: 87.4666%;
   }
   .product .prod-name {
     font-size: 1.6rem;
     margin-left: 0;
+    padding: 0 6.4%;
   }
   .product .description {
     margin-left: 0;
+    padding: 0 6.4%;
   }
   .product .price-details {
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    gap: 8px;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    padding: 0 6.4%;
   }
   .product .price-whole {
     font-size: 2rem;
@@ -99,7 +128,34 @@
     font-size: 1.6rem;
     font-weight: 400;
   }
-  .product .basket-button {
+}
+
+@media (min-width: 1024px) {
+  .product .prod-name {
+    font-size: 2.4rem;
+    margin: 0 7.8504%;
+  }
+  .product .description {
+    font-size: 1.6rem;
+    margin: 0 7.8504% 30px 7.8504%;
+  }
+  .product .price-details {
+    margin: 0 7.8504% 47px 7.8504%;
+  }
+  .product .price-whole {
+    font-size: 2rem;
+    font-weight: 800;
+  }
+  .product .discount-percent {
+    font-size: 1.6rem;
+    font-weight: 700;
+  }
+  .product .discount {
+    font-size: 1.6rem;
+    font-weight: 400;
+  }
+  .product .button-container {
+    width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -109,24 +165,19 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    gap: 12px;
-    font-size: 1.6rem;
-    font-weight: 700;
+  }
+  .product .basket-button {
+    height: 64px;
+    width: 71.9626%;
+    margin: 0;
+  }
+  .product .heart-button {
     background-color: #000;
-    border: none;
-    margin: 25px auto;
-    height: 48px;
-    width: 328px;
     color: #fff;
-  }
-}
-
-@media (min-width: 1024px) {
-  .product .prod-name {
-    font-size: 2.4rem;
-  }
-  .product .description {
-    font-size: 1.6rem;
+    margin: 0;
+    border: none;
+    width: 11.9626%;
+    height: 64px;
   }
 }
 
