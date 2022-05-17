@@ -400,7 +400,7 @@ header {
 .accordion-title {
     display: flex;
     align-items: center;
-    max-width: 903px;
+    /* max-width: 903px; */
     width: 100%;
     padding: 11px 23px;
     background-color: #F5F5F5;
@@ -683,11 +683,9 @@ header {
 
     /*********** COPYRIGHT ************/
 
-    .help-accord,
-    .company-accord {
+    .accordion {
         display: none;
     }
-
 }
 
 
