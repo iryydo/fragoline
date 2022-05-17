@@ -9,14 +9,18 @@
             position: absolute;
             top: 5.144%;
             left: 7.0906%;
+
         }
 
         .heart {
             top: 4.8%;
             right: 6.9333%;
+            z-index: 11;
         }
 
-
+        .to-hide {
+            z-index: 11;
+        }
     }
 
     .images-container-desktop {

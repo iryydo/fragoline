@@ -36,6 +36,10 @@
   .product .heart {
     top: 4.8%;
     right: 6.9333%;
+    z-index: 11;
+  }
+  .product .to-hide {
+    z-index: 11;
   }
   .images-container-desktop {
     display: none;
