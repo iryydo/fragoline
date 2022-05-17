@@ -232,6 +232,10 @@
   transition: 0.4s;
 }
 
+.hidden {
+  display: none;
+}
+
 .plus-icon::after {
   content: url("/img/plus-sign.svg");
   margin-left: auto;
