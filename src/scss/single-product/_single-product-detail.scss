@@ -137,3 +137,18 @@
         }
     }
 }
+
+.swiper {
+    aspect-ratio: 1 / 1;
+    width: 100%;
+    min-height: 37.5rem;
+
+}
+
+.swiper-wrapper {
+
+    img{
+        width: 100%;
+        object-fit: cover;
+    }
+}
