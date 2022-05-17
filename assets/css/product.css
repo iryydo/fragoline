@@ -28,9 +28,6 @@
 }
 
 @media (max-width: 1023px) {
-  .hide {
-    display: none;
-  }
   .product .back-arrow {
     position: absolute;
     top: 5.144%;
@@ -43,13 +40,13 @@
 }
 
 @media (min-width: 1024px) {
-  .product {
+  .swiper-wrapper {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr 33%;
         grid-template-columns: 1fr 33%;
   }
-  .product .product-media {
+  .swiper-wrapper .swiper-slide {
     display: -ms-grid;
     display: grid;
     gap: 2px;
@@ -57,9 +54,6 @@
         grid-template-columns: 1fr 1fr;
     -ms-grid-rows: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
-  }
-  .back-arrow.to-hide {
-    display: none;
   }
   .heart {
     display: none;

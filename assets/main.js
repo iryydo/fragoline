@@ -1,3 +1,32 @@
+/* CAROSELLO */
+
+const swiper = new Swiper('.swiper', {
+    // Optional parameters
+    enabled: true,
+    speed: 400,
+    initialSlide: 0,
+    spaceBetween: 0,
+    effect: 'slide',
+    direction: 'horizontal',
+    slidesPerView: 1,
+    centeredSlides: true,
+    centeredSlidesBounds: true,
+    grabCursor: true,
+    keyboard: {
+        enabled: true,
+    },
+    breakpoints: {
+
+        1024: {
+            noSwiping: true,
+        }
+    },
+    // And if we need scrollbar
+    scrollbar: {
+        el: '.swiper-scrollbar',
+    },
+});
+
 /************************ TOGGLE VISUALIZATION *************************/
 
 const toggleGalleryVisualButton = document.querySelector("#gallery-visualization");

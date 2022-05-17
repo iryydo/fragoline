@@ -2,9 +2,6 @@
 
 
 @media (max-width: 1023px) {
-    .hide {
-        display: none;
-    }
 
     .product {
         .back-arrow {
@@ -23,11 +20,11 @@
 
 @media (min-width: 1024px) {
 
-    .product {
+    .swiper-wrapper {
         display: grid;
         grid-template-columns: 1fr 33%;
 
-        .product-media {
+        .swiper-slide {
             display: grid;
             gap: 2px;
             grid-template-columns: 1fr 1fr;
@@ -36,10 +33,9 @@
     }
 
 
-
-    .back-arrow.to-hide {
-        display: none;
-    }
+    // .back-arrow.to-hide {
+    //     display: none;
+    // }
 
     .heart {
         display: none;
