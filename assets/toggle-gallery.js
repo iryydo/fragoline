@@ -16,7 +16,6 @@ function toggleGalleryView(event) {
     toggleCardVisualButton.classList.remove("selected");
 }
 
-
 //rimuovi classe a grid
 
 toggleCardVisualButton.addEventListener("click", toggleCardView);
