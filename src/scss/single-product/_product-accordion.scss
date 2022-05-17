@@ -36,8 +36,18 @@
 
     //     }
 
+}
+
+.plus-icon {
     &::after {
         content: url("/img/plus-sign.svg");
+        margin-left: auto;
+    }
+}
+
+.minus-icon {
+    &::after {
+        content: url("/img/minus-icon.svg");
         margin-left: auto;
     }
 }
