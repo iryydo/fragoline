@@ -192,42 +192,54 @@
   }
 }
 
-.accordion {
+.product-accordion {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 100%;
   height: 48px;
-  padding: 0 23px;
+  width: 100%;
+  padding: 12px 2.6578%;
   background-color: #F5F5F5;
   border: 1px solid #eaeaea;
   gap: 20px;
 }
 
-.accordion button {
-  background: none;
-  border: none;
+.product-accordion .accordion-item {
+  width: 100%;
+}
+
+.product-accordion .acc-title {
+  font-size: 1.6rem;
+  font-weight: 700;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.product-accordion .acc-title::after {
+  content: url("/img/plus-sign.svg");
   margin-left: auto;
 }
 
-.accordion h3 {
-  font-size: 1.6rem;
-  font-weight: 700;
+.product-accordion .active-header::after {
+  content: url("/img/minus-icon.svg");
+  margin-left: auto;
 }
 
 .product-accordion .acc-content {
+  max-height: 0;
+  overflow: hidden;
   font-size: 1.6rem;
   font-weight: 400;
-}
-
-.product-accordion .acc-content p {
-  padding: 0 6.2666%;
+  -webkit-transition: 1000ms ease max-height;
+  transition: 1000ms ease max-height;
 }
 
 .product-media {

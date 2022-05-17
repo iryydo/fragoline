@@ -1,39 +1,43 @@
 @import "../typography";
 
-.accordion {
+.product-accordion {
     display: flex;
     justify-content: flex-start;
-    align-items: center;
-    // position: relative;
-    // max-width: 903px;
-    width: 100%;
     height: 48px;
-    padding: 0 23px;
+    width: 100%;
+    padding: 12px 2.6578%;
     background-color: #F5F5F5;
     border: 1px solid #eaeaea;
     gap: 20px;
 
-    button {
-        background: none;
-        border: none;
+    .accordion-item {
+        width: 100%;
+    }
+
+    .acc-title {
+        font-size: $title-s;
+        font-weight: $weight-m;
+        display: flex;
+        cursor: pointer;
+        align-items: center;
+    }
+
+    .acc-title::after {
+        content: url("/img/plus-sign.svg");
         margin-left: auto;
     }
 
-    h3 {
-        font-size: $title-s;
-        font-weight: $weight-m;
+    .active-header::after {
+        content: url("/img/minus-icon.svg");
+        margin-left: auto;
     }
-}
 
-.product-accordion {
     .acc-content {
-        font-size: $text-ml;
+        max-height: 0;
+        overflow: hidden;
+        font-size: $title-s;
         font-weight: $weight-s;
-
-        p {
-            padding: 0 6.2666%;
-        }
-
+        transition: 500ms ease max-height;
     }
 }
 
