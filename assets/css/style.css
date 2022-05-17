@@ -397,35 +397,36 @@ header {
     left: -40px;
 }
 
-.help-accord,
-.company-accord {
+.accordion-title {
     display: flex;
-    justify-content: flex-start;
     align-items: center;
-    position: relative;
+    max-width: 903px;
     width: 100%;
-    padding-left: 26px;
+    padding: 11px 23px;
     background-color: #F5F5F5;
     border: 1px solid #eaeaea;
-    gap: 20px;
+    transition: 0.4s;
 }
 
-.help-accord:hover,
-.company-accord:hover {
-    cursor: pointer;
+.hidden {
+    display: none;
 }
+
+.plus-icon::after {
+    content: url("/img/plus-sign.svg");
+    margin-left: auto;
+}
+
+.minus-icon::after {
+    content: url("/img/minus-icon.svg");
+    margin-left: auto;
+}
+
 
 .help-accord p,
 .company-accord p {
     font-size: 1.6rem;
     font-weight: 700;
-}
-
-.plus {
-    max-height: min-content;
-    position: absolute;
-    top: 16px;
-    right: 26px;
 }
 
 /*********** FOLLOW US ************/
