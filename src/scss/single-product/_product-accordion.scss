@@ -1,17 +1,12 @@
 @import "../typography";
 
 .product-accordion {
-    display: flex;
-    justify-content: flex-start;
-    height: 48px;
-    width: 100%;
-    padding: 12px 2.6578%;
-    background-color: #F5F5F5;
-    border: 1px solid #eaeaea;
-    gap: 20px;
 
     .accordion-item {
         width: 100%;
+        padding: 12px 2.6578%;
+        background-color: #F5F5F5;
+        border: 1px solid #eaeaea;
     }
 
     .acc-title {
