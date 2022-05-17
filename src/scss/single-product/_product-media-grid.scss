@@ -17,20 +17,27 @@
         }
     }
 
+    .images-container-desktop {
+        display: none;
+    }
+
 }
 
 @media (min-width: 1024px) {
 
-    .swiper-wrapper {
+    .images-container-desktop {
         display: grid;
-        grid-template-columns: 1fr 33%;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
 
-        .swiper-slide {
-            display: grid;
-            gap: 2px;
-            grid-template-columns: 1fr 1fr;
-            grid-template-rows: 1fr 1fr;
+    .swiper {
+        display: none;
+
+        .swiper-wrapper {
+            display: none;
         }
+
     }
 
 
