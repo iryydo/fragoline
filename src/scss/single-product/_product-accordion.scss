@@ -11,6 +11,13 @@
     transition: 0.4s;
 }
 
+.accordion__product {
+    p {
+        max-width: 903px;
+        padding: 24px;
+    }
+}
+
 .hidden {
     display: none;
 }
@@ -29,7 +36,23 @@
     }
 }
 
-@media (max-width: 1023px) {}
+@media (max-width: 1023px) {
+    .accordion__product {
+        margin: 32px 0;
+    }
+
+    .product-media {
+        background-color: #F5F5F5;
+    }
+}
 
 
-@media (min-width: 1024px) {}
+@media (min-width: 1024px) {
+
+
+    .accordion__product {
+        margin: 40px auto 80px 5.0625%;
+        width: 66%;
+
+    }
+}
