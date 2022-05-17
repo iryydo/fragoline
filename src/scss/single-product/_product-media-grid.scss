@@ -15,6 +15,8 @@
             top: 4.8%;
             right: 6.9333%;
         }
+
+
     }
 
     .images-container-desktop {
@@ -40,10 +42,14 @@
 
     }
 
+    .layout-grid {
+        display: grid;
+        grid-template-columns: 1fr 33%;
+    }
 
-    // .back-arrow.to-hide {
-    //     display: none;
-    // }
+    .back-arrow.to-hide {
+        display: none;
+    }
 
     .heart {
         display: none;

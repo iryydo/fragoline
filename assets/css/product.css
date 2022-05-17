@@ -57,6 +57,15 @@
   .swiper .swiper-wrapper {
     display: none;
   }
+  .layout-grid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 33%;
+        grid-template-columns: 1fr 33%;
+  }
+  .back-arrow.to-hide {
+    display: none;
+  }
   .heart {
     display: none;
   }
@@ -228,9 +237,5 @@
 .minus-icon::after {
   content: url("/img/minus-icon.svg");
   margin-left: auto;
-}
-
-.product-media {
-  line-height: 0;
 }
 /*# sourceMappingURL=product.css.map */
