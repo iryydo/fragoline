@@ -2,40 +2,13 @@
 
 .accordion-title {
     display: flex;
-    //     justify-content: flex-start;
     align-items: center;
-    //     // position: relative;
-    // height: 48px;
     max-width: 903px;
     width: 100%;
     padding: 11px 23px;
     background-color: #F5F5F5;
     border: 1px solid #eaeaea;
-    //     gap: 20px;
-
-    //     button {
-    //         background: none;
-    //         border: none;
-    //         margin-left: auto;
-    //     }
-
-    //     h3 {
-    //         font-size: $title-s;
-    //         font-weight: $weight-m;
-    //     }
-    // }
-
-    // .product-accordion {
-    //     .acc-content {
-    //         font-size: $text-ml;
-    //         font-weight: $weight-s;
-
-    //         p {
-    //             padding: 0 6.2666%;
-    //         }
-
-    //     }
-
+    transition: 0.4s;
 }
 
 .plus-icon {

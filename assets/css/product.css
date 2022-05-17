@@ -228,6 +228,8 @@
   padding: 11px 23px;
   background-color: #F5F5F5;
   border: 1px solid #eaeaea;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 .plus-icon::after {
