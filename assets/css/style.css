@@ -23,6 +23,10 @@ h3 {
     padding: 0;
 }
 
+.informed-title {
+    margin: 24px 0;
+}
+
 ul {
     display: inline-block;
     padding-inline-start: 0;
